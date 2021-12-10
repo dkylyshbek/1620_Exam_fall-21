@@ -187,3 +187,9 @@ input[type=text]:focus {
  background: var(--darkGreen);
  color: var(--white);
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 500px;
+  }
+}
