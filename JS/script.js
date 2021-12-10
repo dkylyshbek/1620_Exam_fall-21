@@ -1,10 +1,12 @@
 
 let lightButton = document.getElementById('light-theme')
 let darkButton = document.getElementById('dark-theme')
-let buttons = document.getElementById('toggle')
-let body = document.body;
+let body = document.getElementById('body');
+let buttons = document.getElementById('toggle').addEventListener('click', myFunction)
 
-buttons.onclick = () => {
-    body.classList.replace(lightButton, darkButton)
+function myFunction()
+    buttons.onclick = () => {
+        body.classList.replace(lightButton, darkButton)
 
 }
+
